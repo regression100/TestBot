@@ -1,0 +1,11 @@
+create table standings1(
+    id serial primary key not null ,
+    tgid varchar,
+    firstname varchar,
+    lastname varchar,
+    username varchar,
+    count int,
+    matematika_count int,
+    ingliz_tili_count int,
+    ball float
+)
